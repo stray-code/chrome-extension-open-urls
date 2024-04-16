@@ -11,6 +11,11 @@ const manifest = defineManifest({
     48: "img/icon48.png",
     128: "img/icon128.png",
   },
+  action: {
+    default_popup: "src/popup/index.html",
+    default_icon: "img/icon16.png",
+  },
+  permissions: ["clipboardRead"],
 });
 
 export default defineConfig({
